@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+html{
+  height: 2000px;
+  /* overflow: hidden; */
+}
+
+body{
+  font-family: "hina-mincho", sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
+  background-image: url("img/KAMI.jpg");
+  height: 100%;
+  overflow: hidden;
+}
+
+.background{
+  margin: -10px;
+  height: 2000px;
+  background-color: rgba(118,6,6,0.8);
+}
+
+h1{
+  padding-top: 50px;
+  margin: 0;
+}
+
+.title-1{
+  text-align: center;
+  color: #FFEFD7;
+  transform: scaleX(2);
+  letter-spacing: 6px;
+  font-size: 100%;
+}
+
+.line-1{
+  margin-left: calc(50% - 70px);
+  height: 2px;
+  background-color: #FFEFD7;
+  width: 100%;
+}
+
+.line-2{
+   margin-top: 5px;
+   height: 2px;
+   margin-left: calc(50% + 10px);
+   width: 80px;
+   background-color: #FFEFD7;
+}
+
+.content{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.sns-link{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 260px;
+  color: #FFEFD7;
+  font-size: 70px;
+}
+
+
+
